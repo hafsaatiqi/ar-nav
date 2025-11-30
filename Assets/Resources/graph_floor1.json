@@ -1,0 +1,40 @@
+{
+  "floor": "floor1",
+  "map_image": "floor1.png",
+  "scale_m_per_pixel": 0.02,
+  "nodes": [
+    { "id": "N0", "x": 32, "y": 480, "label": "Male Washroom" },
+    { "id": "N10", "x": 160, "y": 440, "label": "A1" },
+    { "id": "N14", "x": 210, "y": 400, "label": "Lab 6" },
+    { "id": "N30", "x": 300, "y": 360, "label": "A2" },
+    { "id": "N33", "x": 340, "y": 340, "label": "A4" },
+    { "id": "N49", "x": 420, "y": 320, "label": "A3" },
+    { "id": "N52", "x": 460, "y": 290, "label": "Faculty Office / Power Systems" },
+    { "id": "N74", "x": 540, "y": 260, "label": "Middle Stairs" },
+    { "id": "N84", "x": 600, "y": 230, "label": "BCR" },
+    { "id": "N100", "x": 680, "y": 200, "label": "A5" },
+    { "id": "N108", "x": 740, "y": 180, "label": "Engineering Workshop" },
+    { "id": "N120", "x": 820, "y": 160, "label": "A6" },
+    { "id": "N130", "x": 900, "y": 140, "label": "Control Lab" }
+  ],
+  "edges": [
+    { "from": "N0", "to": "N10", "cost": 4.0 },
+    { "from": "N10", "to": "N14", "cost": 5.0 },
+    { "from": "N14", "to": "N30", "cost": 6.0 },
+    { "from": "N30", "to": "N33", "cost": 3.0 },
+    { "from": "N33", "to": "N49", "cost": 6.0 },
+    { "from": "N49", "to": "N52", "cost": 4.0 },
+    { "from": "N52", "to": "N74", "cost": 6.0 },
+    { "from": "N74", "to": "N84", "cost": 5.0 },
+    { "from": "N84", "to": "N100", "cost": 6.0 },
+    { "from": "N100", "to": "N108", "cost": 5.0 },
+    { "from": "N108", "to": "N120", "cost": 6.0 },
+    { "from": "N120", "to": "N130", "cost": 6.0 }
+  ],
+  "pois": [
+    { "id": "P_MaleWash", "node": "N0", "label": "Male Washroom" },
+    { "id": "P_A1", "node": "N10", "label": "A1" },
+    { "id": "P_Lab6", "node": "N14", "label": "Lab 6" },
+    { "id": "P_Control", "node": "N130", "label": "Control Lab" }
+  ]
+}
